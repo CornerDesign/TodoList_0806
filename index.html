@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./index.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/0f3f38a034.js"></script>
+
 </head>
 
 <body>
@@ -25,7 +26,7 @@
         <input id="todo" type="text" placeholder="新增待辦事項">
 
         <!-- TODO: 新增待辦事項 -->
-        <a>
+        <a onclick="addNewTodo()">
           <img src="./images/add.svg" alt="Create Todo">
         </a>
       </div>
@@ -45,13 +46,13 @@
         </ul>
 
         <div class="todolist__table">
-          <ul class="todolist__item"">
-            <li class=" no-completed">
-            <input class="todolist__input" type="checkbox" />
-            <span>爆肝趕 KryptoCamp 作業</span>
-            <a class="delete" href="#">
-              <i class="fa fa-x"></i>
-            </a>
+          <ul class="todolist__item">
+            <li class="no-completed">
+              <input class="todolist__input" type="checkbox" />
+              <span>爆肝趕 KryptoCamp 作業</span>
+              <a class="delete" href="#">
+                <i class="fa fa-x"></i>
+              </a>
             </li>
 
 
